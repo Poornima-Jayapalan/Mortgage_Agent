@@ -1,6 +1,41 @@
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
 *.pyc
-*.DS_Store
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env*/        # handles .env.local, .env.dev, etc.
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Vector DB persistence
+# (Chroma creates folders like vectorstore_xxxxx)
+# -------------------------
 vectorstore_*/
-vectorstores/
-.env
+vectorstore*/
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
