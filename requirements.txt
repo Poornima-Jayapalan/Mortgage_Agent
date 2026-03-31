@@ -5,8 +5,11 @@ langchain-core
 langchain-text-splitters
 chromadb
 fastembed
+duckduckgo-search
+
 pypdf
 pytesseract
 pdf2image
 Pillow
-duckduckgo-search
+
+ollama
